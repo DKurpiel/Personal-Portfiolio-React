@@ -1,0 +1,51 @@
+.hero__title span {
+    color: #2F4F4F;
+}
+
+.hero__title {
+    font-weight: 600;
+}
+
+.hero__img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: auto;
+}
+
+.hero__section {
+    padding-top: 150px;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 992px) {
+    .hero__img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .hero__content p {
+        font-size: 0.8rem;
+    }
+
+    .hero__btns button {
+        display: block;
+        padding: 5px 20px;
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .hero__img {
+        margin: auto;
+    }
+
+    .hero__content {
+        margin-bottom: 50px;
+    }
+
+    .hero__title {
+        font-size: 1.5rem;
+    }
+}
